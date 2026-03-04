@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "document-intelligence-refinery"
+version = "0.1.0"
+description = "An agentic pipeline for ingesting, understanding, and querying enterprise documents."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pdfplumber = "^0.11.0"
+pymupdf = "^1.23.26"
+pydantic = "^2.6.4"
+langgraph = "^0.0.48"
+chromadb = "^0.4.24"
+google-genai = "^0.4.1"
+ruff = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
